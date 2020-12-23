@@ -1,0 +1,54 @@
+ body.bg {
+	background-image:url("/Etalenthunt/images/Chrysanthemum.jpg");
+}
+ 
+ a{
+	text-decoration: none;
+	font-family: Lucida Sans Unicode;
+	
+}
+
+a:LINK {
+	color: navy;
+}
+a:VISITED {
+	color: purple;
+}
+a:HOVER {
+	color: black;
+}
+a:ACTIVE {
+	color: red;
+}
+.global{
+	font-family: monospace;
+	background-color: gray;
+	color : black;
+	font-size: large;
+	border-radius:5px; 
+	margin-top: 0px;
+	
+}
+
+h1{
+color:aqua;
+font-family:lucida calligraphy;
+
+text-transform: capitalize;
+margin: 20px;
+text-align: center;
+}
+
+@FONT-FACE{
+	
+	font-family: myfont;
+	src:url("/Etalenthunt/fonts/atomic STARGAZE.ttf");
+}
+.fnt{
+	font-family: myfont;
+	color: red;
+	text-transform: capitalize;
+margin: 20px;
+text-align: center;
+	
+}
